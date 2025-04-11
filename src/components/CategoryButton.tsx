@@ -19,7 +19,7 @@ export default function CategoryButton({
         border
         rounded-md
         border-primary
-        text-base
+        text-mono100
         font-bold
         pl-[22px]
         pr-[21px]

@@ -34,7 +34,7 @@ type Story = StoryObj<typeof meta>
 // More on component testing: https://storybook.js.org/docs/writing-tests/component-testing
 export const Default: Story = {
   args: {
-    iconAlt: '카테고리 버튼',
+    iconAlt: '카테고리',
     iconPath: 'https://kr.object.ncloudstorage.com/icons/ic-category.svg',
     text: '카테고리 버튼',
     onClick: () => {},
