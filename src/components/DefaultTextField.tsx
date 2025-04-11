@@ -38,6 +38,7 @@ export default function DefaultTextField({
         onBlur={() => setIsFocused(false)}
         className={`text-color-primary border-b ${borderColor}`}>
         <input
+          data-testid={id}
           id={id}
           className="outline-none"
           placeholder={placeholder}
