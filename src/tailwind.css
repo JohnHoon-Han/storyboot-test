@@ -1,0 +1,28 @@
+@theme {
+  --color-primary: #1d2745;
+  --color-secondary: #1de5d4;
+  --color-tertiary: #1d2745;
+  --color-white: #ffffff;
+  --color-mono100: #f1f1f1;
+  --color-mono200: #bebebe;
+  --color-mono300: #d6d7d9;
+  --color-error: #d01e1e;
+  --color-social: #395997;
+  --text-xl: [20px, 30px];
+  --color-dark-opacity: rgba(255, 255, 255, 0.1);
+}
+
+/* @import 'tailwindcss/preflight'; */
+
+@layer base {
+  .relative > p {
+    @apply absolute;
+  }
+
+  .navigation-title-wrapper > button {
+    @apply mr-[7px];
+  }
+}
+
+@layer utilities {
+}
