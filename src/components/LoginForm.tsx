@@ -55,7 +55,7 @@ export default function LoginForm({
         theme="dark"
         onClick={() => {}}
       />
-      {/* <button
+      <button
         className={`
         border
         rounded-md
@@ -70,7 +70,7 @@ export default function LoginForm({
         onClick={onClick}>
         <img src={iconPath} alt={iconAlt} />
         <p>{text}</p>
-      </button> */}
+      </button>
     </div>
   )
 }

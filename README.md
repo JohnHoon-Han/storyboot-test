@@ -52,3 +52,11 @@ export default tseslint.config({
   },
 })
 ```
+
+tailwind 4.x css export command
+
+npx @tailwindcss/cli -i ./src/index.css -o ./src/output.css --watch
+
+```
+
+```

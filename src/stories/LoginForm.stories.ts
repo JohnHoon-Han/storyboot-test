@@ -1,11 +1,11 @@
 // Replace your-framework with the name of your framework
 import type { Meta, StoryObj } from '@storybook/react'
 
-import { userEvent, waitFor, within, expect, fn } from '@storybook/test'
+import { userEvent, within, fn } from '@storybook/test'
 
 import LoginForm from '../components/LoginForm'
 
-const meta: Meta<typeof Form> = {
+const meta: Meta<typeof LoginForm> = {
   title: 'Forms/LoginForm',
   parameters: {
     layout: 'centered',
@@ -13,7 +13,7 @@ const meta: Meta<typeof Form> = {
   component: LoginForm,
   args: {
     // 👇 Use `fn` to spy on the onSubmit arg
-    onSubmit: fn(),
+    onClick: fn(),
   },
 }
 

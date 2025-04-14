@@ -1,4 +1,4 @@
-import IconButton from '../IconButton'
+import IconButton from './IconButton'
 
 interface INavigationBarProps {
   isDark: boolean
