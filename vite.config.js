@@ -23,7 +23,7 @@ export default defineConfig({
     build: {
         lib: {
             entry: path.resolve(__dirname, 'src/index.tsx'),
-            name: 'hoons-design-system',
+            name: 'hoons-design-system-study',
             fileName: function (format) { return "index.".concat(format, ".js"); },
         },
         rollupOptions: {
